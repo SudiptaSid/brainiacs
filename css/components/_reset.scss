@@ -1,0 +1,74 @@
+/* ---------- Reset ---------- */
+body {
+    font-family:$main_font;
+    font-weight:400;
+    font-size: $base_fz;
+    line-height:1.5;
+    color:$clr_212529;
+    overflow-x: hidden;
+    @media (max-width: $break_1080) {
+        font-size:13px;
+    }
+}
+ul,ol {
+    list-style-type:none;
+    padding-left:0px;
+    margin-bottom:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:500;
+    margin-bottom:15px;
+    line-height:1.4;
+}
+h1 {
+    font-size:2.8em;
+}
+h2 {
+    font-size:2.2em;
+}
+h3 {
+    font-size:1.6em;
+}
+h4 {
+    font-size:1.375em;
+}
+h5 {
+    font-size:1em;
+}
+h6 {
+    font-size:0.75em;
+}
+a {
+    text-decoration: none;
+    transition:600ms;
+    &:hover {
+        text-decoration: none;
+    }
+}
+hr {
+    border-top:$border_1px;
+}
+a, button, input, textarea, select {
+    transition:0.6s;
+    &:focus, &:hover, &:active {
+        outline:none;
+        box-shadow:none;
+    }
+}
+img {
+    width:100%;
+}
+ul.disk_type {
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 30px;
+    li {
+        margin-bottom: 10px;
+    }
+}
+/* ---------- Bootstrap Reset ---------- */
+.container {
+    @media (min-width: $break_1240) {
+        max-width: 1200px;
+    }
+}

@@ -1,0 +1,64 @@
+/* ---------- Footer ---------- */
+footer {
+    background-color:$clr_212529;
+    color:$white_clr;
+    padding:80px 0px 20px;
+    .f_logo {
+        margin-bottom:20px;
+        a {
+            display: block;
+            img {
+                width:auto;
+                height:50px;
+            }
+        }
+    }
+    p {
+        a {
+            color:$white_clr;
+            &:hover {
+                text-decoration: underline;
+                color:$clr_yellow;
+            }
+        }
+    }
+    .cs_social {
+        display: inline-block;
+        li {
+            display: inline-block;
+            a {
+                padding-right:10px;
+                display: block;
+                color:$white_clr;
+                &:hover {
+                    color:$clr_yellow;
+                }
+            }
+        }
+    }
+    h4 {
+        font-weight:500;
+        text-transform: capitalize;
+    }
+    .f_links {
+        li {
+            display: block;
+            margin-bottom:5px;
+            a {
+                color:$white_clr;
+                text-transform: capitalize;
+                &:hover {
+                    text-decoration: underline;
+                    color:$clr_yellow;
+                }
+            }
+        }
+    }
+    i {
+        margin-right:5px;
+    }
+    .copyright {
+        text-align: center;
+        margin-bottom:0px;
+    }
+}
